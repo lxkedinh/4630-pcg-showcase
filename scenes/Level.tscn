@@ -438,7 +438,10 @@ sources/2 = SubResource("TileSetAtlasSource_m02fx")
 script = ExtResource("1_ymgxh")
 height_noise_texture = SubResource("NoiseTexture2D_7lnus")
 tree_noise_texture = SubResource("NoiseTexture2D_vv334")
-tree_noise_threshold = 0.7
+tall_grass_noise_low = 0.1
+tall_grass_noise_high = 0.2
+tree_noise_threshold = 0.65
+tree_height_threshold = 0.1
 
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1
