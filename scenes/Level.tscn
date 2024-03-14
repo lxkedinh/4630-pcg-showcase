@@ -15,6 +15,7 @@ noise = SubResource("FastNoiseLite_vjynq")
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_js8ir"]
 noise_type = 3
+seed = 24
 frequency = 0.35
 fractal_octaves = 1
 
